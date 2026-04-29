@@ -1,5 +1,7 @@
 import { ArrowRight, GraduationCap, Mail, MapPin, Sparkles } from "lucide-react";
-import heroGraphic from "../assets/my_img.png";
+import heroGraphicPng from "../assets/my_img.png";
+import heroGraphicWebp from "../assets/my_img.webp";
+import heroGraphicAvif from "../assets/my_img.avif";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -68,7 +70,7 @@ function HeroSection({ profile, socialLinks = [] }) {
     <header id="home" data-reveal className="reveal-section pb-12 pt-6 sm:pb-16 sm:pt-8">
       <nav className="flex min-w-0 items-center justify-between gap-3 rounded-lg border border-white/10 bg-slate-950/45 px-3 py-3 shadow-soft backdrop-blur-xl sm:gap-4 sm:px-6">
         <a
-          href="#home"
+          href="https://harishx0.vercel.app/"
           className="min-w-0 max-w-[62vw] truncate font-display text-base font-semibold tracking-tight text-white sm:max-w-none sm:text-lg"
         >
           {profile.name}
@@ -156,14 +158,18 @@ function HeroSection({ profile, socialLinks = [] }) {
           <div className="absolute -inset-5 -z-10 bg-gradient-to-br from-cyan-500/32 via-blue-500/18 to-fuchsia-500/18 blur-2xl transition-all duration-700 group-hover:scale-110 group-hover:opacity-95" />
           <div className="overflow-hidden rounded-lg border border-white/10 bg-slate-950/55 shadow-[0_28px_90px_-46px_rgba(8,145,178,0.65)] backdrop-blur-xl transition-all duration-700 group-hover:-translate-y-3 group-hover:border-cyan-300/25 group-hover:shadow-[0_36px_110px_-44px_rgba(34,211,238,0.58)]">
             <div className="relative overflow-hidden border-b border-white/10 bg-slate-900/70 p-3">
-              <img
-                src={heroGraphic}
-                alt={`${profile.name} portrait`}
-                loading="eager"
-                fetchPriority="high"
-                decoding="async"
-                className="h-[20rem] w-full rounded-md object-cover object-top transition-transform duration-700 group-hover:scale-[1.025] sm:h-[24rem]"
-              />
+              <picture>
+                <source srcSet={heroGraphicAvif} type="image/avif" />
+                <source srcSet={heroGraphicWebp} type="image/webp" />
+                <img
+                  src={heroGraphicPng}
+                  alt={`${profile.name} portrait`}
+                  loading="eager"
+                  fetchPriority="high"
+                  decoding="async"
+                  className="h-[20rem] w-full rounded-md object-cover object-top transition-transform duration-700 group-hover:scale-[1.025] sm:h-[24rem]"
+                />
+              </picture>
               <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-950/40 to-transparent" />
             </div>
 
