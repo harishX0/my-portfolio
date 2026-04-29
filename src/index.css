@@ -40,18 +40,18 @@
   overflow: hidden;
   pointer-events: none;
   background:
-    radial-gradient(circle at top, rgba(15, 23, 42, 0.35) 0%, rgba(2, 6, 23, 0) 45%),
-    linear-gradient(180deg, rgba(2, 6, 23, 0.98) 0%, rgba(3, 7, 18, 0.98) 48%, rgba(1, 10, 26, 0.98) 100%);
+    radial-gradient(circle at top, rgba(15, 23, 42, 0.22) 0%, rgba(2, 6, 23, 0) 48%),
+    linear-gradient(180deg, rgba(2, 6, 23, 0.995) 0%, rgba(3, 7, 18, 0.995) 48%, rgba(1, 10, 26, 0.995) 100%);
 }
 
 .developer-night-surface {
   position: absolute;
   inset: -12% -10% 0;
   background:
-    radial-gradient(circle at 18% 18%, rgba(14, 165, 233, 0.18) 0%, rgba(14, 165, 233, 0) 28%),
-    radial-gradient(circle at 82% 16%, rgba(59, 130, 246, 0.16) 0%, rgba(59, 130, 246, 0) 32%),
-    radial-gradient(circle at 50% 82%, rgba(217, 70, 239, 0.12) 0%, rgba(217, 70, 239, 0) 28%),
-    linear-gradient(180deg, rgba(6, 12, 28, 0.94) 0%, rgba(2, 6, 23, 0.98) 100%);
+    radial-gradient(circle at 18% 18%, rgba(14, 165, 233, 0.12) 0%, rgba(14, 165, 233, 0) 30%),
+    radial-gradient(circle at 82% 16%, rgba(59, 130, 246, 0.11) 0%, rgba(59, 130, 246, 0) 34%),
+    radial-gradient(circle at 50% 82%, rgba(217, 70, 239, 0.08) 0%, rgba(217, 70, 239, 0) 30%),
+    linear-gradient(180deg, rgba(5, 10, 24, 0.965) 0%, rgba(2, 6, 23, 0.995) 100%);
   animation: developerNightShift 18s ease-in-out infinite alternate;
 }
 
@@ -68,10 +68,10 @@
   right: -16%;
   bottom: -26vh;
   height: 76vh;
-  opacity: 0.3;
+  opacity: 0.18;
   background-image:
-    repeating-linear-gradient(90deg, rgba(45, 212, 191, 0.28) 0 1px, transparent 1px 86px),
-    repeating-linear-gradient(0deg, rgba(34, 211, 238, 0.28) 0 1px, transparent 1px 86px);
+    repeating-linear-gradient(90deg, rgba(45, 212, 191, 0.22) 0 1px, transparent 1px 86px),
+    repeating-linear-gradient(0deg, rgba(34, 211, 238, 0.22) 0 1px, transparent 1px 86px);
   transform-origin: center bottom;
   transform: perspective(1350px) rotateX(79deg);
   animation: developerGridSlide 16s linear infinite;
@@ -88,7 +88,7 @@
   position: absolute;
   border-radius: 999px;
   filter: blur(80px);
-  opacity: 0.45;
+  opacity: 0.28;
   mix-blend-mode: screen;
 }
 
