@@ -7,7 +7,8 @@
     "dev": "vite --configLoader native --host 0.0.0.0 --port 5173",
     "build": "vite build --configLoader native",
     "lint": "eslint .",
-    "preview": "vite preview --configLoader native"
+    "preview": "vite preview --configLoader native",
+    "optimize-images": "node ./scripts/optimize-images.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.50.1",
@@ -27,6 +28,7 @@
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
     "postcss": "^8.5.12",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17",
     "vite": "^8.0.10"
   }
