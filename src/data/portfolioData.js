@@ -33,15 +33,15 @@ export const projects = [
       "A real-time MERN chat application with authentication, Socket.IO messaging, and a clean, responsive UI.",
     stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Socket.IO"],
     image:
-      "https://1drv.ms/i/c/f95e90109b12dfef/IQCbYD7ipI8QR55uEuhEQiZ1AWHD4_YvT21DFuoFG2XXzE4?e=79p7Aw",
+      "https://1drv.ms/i/c/f95e90109b12dfef/IQC5pIrIulDcQqEGB1j230CHAcj4LZlwpgddDB6ymSue4q0?e=cGOihG",
     liveUrl: "https://chat-app-dun-theta-20.vercel.app/",
     codeUrl: "https://github.com/harishX0/Chat_app",
   },
   {
-    title: "Commerce Platform",
+    title: "e-Commerce Website",
     summary:
       "An e-commerce storefront featuring category filters, cart flow, secure checkout, and order history.",
-    stack: ["React", "Express", "MongoDB"],
+    stack: ["html", "css", "javascript"],
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
     liveUrl: "https://example.com",
