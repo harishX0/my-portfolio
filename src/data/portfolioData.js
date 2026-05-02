@@ -1,6 +1,7 @@
 import bloodDonationImage from "../assets/blood-donation.jpeg";
 import runnerUpImage from "../assets/runnerup.jpeg";
 import winnerImage from "../assets/winner.jpeg";
+import heartImage from "../assets/heart.png";
 
 export const profile = {
   name: "Harish Kumar",
@@ -32,8 +33,7 @@ export const projects = [
     summary:
       "A real-time MERN chat application with authentication, Socket.IO messaging, and a clean, responsive UI.",
     stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Socket.IO"],
-    image:
-      "https://1drv.ms/i/c/f95e90109b12dfef/IQC5pIrIulDcQqEGB1j230CHAcj4LZlwpgddDB6ymSue4q0?e=cGOihG",
+    image: heartImage,
     liveUrl: "https://chat-app-dun-theta-20.vercel.app/",
     codeUrl: "https://github.com/harishX0/Chat_app",
   },
@@ -41,11 +41,11 @@ export const projects = [
     title: "e-Commerce Website",
     summary:
       "An e-commerce storefront featuring category filters, cart flow, secure checkout, and order history.",
-    stack: ["html", "css", "javascript"],
+    stack: ["HTML5", "CSS3", "JavaScript"],
     image:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1200&q=80",
     liveUrl: "https://example.com",
-    codeUrl: "https://github.com/",
+    codeUrl: "https://github.com/harishX0",
   },
   {
     title: "AI Notes App",
@@ -55,7 +55,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80",
     liveUrl: "https://example.com",
-    codeUrl: "https://github.com/",
+    codeUrl: "https://github.com/harishX0",
   },
 ];
 
