@@ -186,6 +186,20 @@
   animation: developerPanelTwo 21s ease-in-out infinite alternate;
 }
 
+.developer-scanlines {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.05) 50%
+  );
+  background-size: 100% 4px;
+  opacity: 0.15;
+}
+
 .developer-word {
   position: absolute;
   font-family: "Outfit", ui-sans-serif, system-ui, sans-serif;
