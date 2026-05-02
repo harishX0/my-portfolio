@@ -28,14 +28,14 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Ops Dashboard",
+    title: "HeartLink Chat",
     summary:
-      "A role-based analytics dashboard with real-time KPIs, task tracking, and downloadable reports.",
-    stack: ["React", "Tailwind", "Node.js"],
+      "A real-time MERN chat application with authentication, Socket.IO messaging, and a clean, responsive UI.",
+    stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Socket.IO"],
     image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
-    liveUrl: "https://example.com",
-    codeUrl: "https://github.com/",
+      "https://1drv.ms/i/c/f95e90109b12dfef/IQCbYD7ipI8QR55uEuhEQiZ1AWHD4_YvT21DFuoFG2XXzE4?e=79p7Aw",
+    liveUrl: "https://chat-app-dun-theta-20.vercel.app/",
+    codeUrl: "https://github.com/harishX0/Chat_app",
   },
   {
     title: "Commerce Platform",
