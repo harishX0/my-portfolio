@@ -34,8 +34,8 @@ export const projects = [
       "A real-time MERN chat application with authentication, Socket.IO messaging, and a clean, responsive UI.",
     stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Socket.IO"],
     image: heartImage,
-    liveUrl: "https://chat-app-dun-theta-20.vercel.app/",
-    codeUrl: "https://github.com/harishX0/Chat_app",
+    liveUrl: "https://chat-app-dun-theta-20.vercel.app",
+    codeUrl: "https://github.com/harishX0/Chat_app"
   },
   {
     title: "e-Commerce Website",
