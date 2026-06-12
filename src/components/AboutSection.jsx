@@ -1,9 +1,9 @@
 import SectionTitle from "./SectionTitle";
 
 const highlights = [
-  { label: "Focus", value: "Product-first engineering" },
-  { label: "Workflow", value: "Research -> Design -> Build -> Iterate" },
-  { label: "Collaboration", value: "Clear communication and delivery ownership" },
+  { label: "Technical Focus", value: "Full Stack MERN Development" },
+  { label: "Quality Driven", value: "Clean, Scalable & Maintainable Code" },
+  { label: "Goal Oriented", value: "Turning Ideas into Digital Products" },
 ];
 
 function AboutSection({ about }) {
