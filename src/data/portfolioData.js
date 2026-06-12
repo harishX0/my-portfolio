@@ -34,7 +34,7 @@ export const projects = [
       "A real-time messaging application featuring secure authentication and instant communication via Socket.IO, delivered with a modern, responsive interface.",
     stack: ["React", "Vite", "Node.js", "Express", "MongoDB", "Socket.IO"],
     image: heartImage,
-    liveUrl: "https://chat-app-dun-theta-20.vercel.app",
+    liveUrl: "https://heartlink-front.onrender.com",
     codeUrl: "https://github.com/harishX0/Chat_app"
   },
   {
